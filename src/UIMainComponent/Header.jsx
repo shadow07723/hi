@@ -16,7 +16,7 @@ function Header() {
         <div className="text-xl font-bold">My Application Header</div>
 
         {/* Desktop Menu */}
-        <div className="hidden 2xl:flex  gap-6 text-lg">
+        <div className="hidden xl:flex 2xl:flex gap-6 text-lg">
           <Link to="/">Home</Link>
           <Link to="/contact">Contact</Link>
           <Menu />
@@ -27,7 +27,7 @@ function Header() {
 
         {/* Mobile Button */}
         <button
-          className="2xl:hidden text-3xl"
+          className="xl:hidden text-3xl"
           onClick={() => setMobileOpen(true)}
         >
           ☰
