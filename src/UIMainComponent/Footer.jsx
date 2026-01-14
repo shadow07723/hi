@@ -1,5 +1,9 @@
 // src/components/Footer.jsx
 import React from "react";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { GrLinkedin } from "react-icons/gr";
 
 const Footer = () => {
   return (
@@ -33,17 +37,18 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex gap-4">
-            <a href="#" aria-label="Twitter" className="hover:text-white">
-              <i className="fab fa-twitter">ll</i>
+            <a href="#" aria-label="Twitter" className="hover:scale-110 text-blue-400 text-2xl">
+              <FaTwitter />
             </a>
-            <a href="#" aria-label="Facebook" className="hover:text-white">
-              <i className="fab fa-facebook">jj</i>
+            <a href="https://www.facebook.com/share/1TSYsrfdfJ/" aria-label="Facebook" className="hover:scale-110 text-blue-500 bg-white rounded-full border-2 border-white text-2xl">
+              <FaFacebook />
             </a>
-            <a href="#" aria-label="Instagram" className="hover:text-white">
-              <i className="fab fa-instagram">ui</i>
+            <a href="https://www.instagram.com/sagar_roy_012?igsh=cmtqa241aDQ5NzJ6" aria-label="Instagram" className="hover:scale-110 text-red-500 text-2xl">
+              <FaInstagram />
             </a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-white">
-              <i className="fab fa-linkedin">gh</i>
+            <a href="https://www.linkedin.com/in/sagar-ray-87647b19a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn" className="hover:scale-110 text-blue-500 bg-white text-2xl">
+              <GrLinkedin />
+
             </a>
           </div>
         </div>
