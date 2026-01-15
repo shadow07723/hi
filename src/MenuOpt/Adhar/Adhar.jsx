@@ -4,6 +4,7 @@ import { TiMessageTyping } from "react-icons/ti";
 import { FaFacebook } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa6";
+import { GrServices } from "react-icons/gr";
 import { Link } from "react-router";
 
 const Card = ({ icon: Icon, title }) => (
@@ -112,7 +113,7 @@ export default function AadhaarServices() {
 
         <div className="h-70 bg-white shadow-2xl rounded-lg hover:scale-105 transition-transform duration-300">
           <div className="flex gap-4">
-            <IoFingerPrint className="ms-7 mt-5 scale-190 text-blue-500" />
+            <GrServices className="ms-7 mt-5 scale-190 text-blue-500" />
             <h1 className=" mt-5 font-bold">Aadhaar Services </h1>
           </div>
           <div className="flex flex-col ms-7 mt-3 gap-1 ">
