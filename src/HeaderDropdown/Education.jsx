@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import MPBord from "../MPBord/MPBord";
 export default function Education() {
   const [open, setOpen] = useState(false);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
@@ -40,7 +39,7 @@ export default function Education() {
         <div className="absolute right-0 w-40 bg-gray-700 rounded-lg shadow-lg border z-50">
           <ul className="py-2">
             <li className="px-4 py-2 hover:bg-black cursor-pointer">
-              <MPBord />
+              l
             </li>
             <li className="px-4 py-2 hover:bg-black cursor-pointer">
               Pan Card
@@ -77,7 +76,7 @@ export default function Education() {
       {isTouchDevice && open && (
         <div className="mt-2 w-full bg-gray-800 rounded-lg shadow-lg border z-50">
           <ul className="py-2">
-            <li className="px-4 py-2 border-b border-gray-700"><MPBord /></li>
+            <li className="px-4 py-2 border-b border-gray-700">l</li>
             <li className="px-4 py-2 border-b border-gray-700">Pan Card</li>
             <li className="px-4 py-2 border-b border-gray-700">Sambhal Card</li>
             <li className="px-4 py-2 border-b border-gray-700">E-Shram Card</li>

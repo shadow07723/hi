@@ -91,7 +91,7 @@ export default function AadhaarServices() {
               Check Aadhaar Status |
             </Link>
 
-            <Link to="/secondryexam2025" className="text-blue-950 ms-4">
+            <Link to="/DownlodeAdhar" className="text-blue-950 ms-4">
               Download Aadhaar |
             </Link>
 

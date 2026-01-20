@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router";
 
 export default function Menu() {
   const [open, setOpen] = useState(false);
@@ -39,7 +40,7 @@ export default function Menu() {
       {!isTouchDevice && open && (
         <div className="absolute right-0 w-40 bg-gray-700 rounded-lg shadow-lg border z-50">
           <ul className="py-2">
-            <li className="px-4 py-2 hover:bg-black cursor-pointer">Adhar</li>
+            <li className="px-4 py-2 hover:bg-black cursor-pointer"><Link to="/Adhar">Adhar</Link></li>
             <li className="px-4 py-2 hover:bg-black cursor-pointer">Pan Card</li>
             <li className="px-4 py-2 hover:bg-black cursor-pointer">Sambhal Card</li>
             <li className="px-4 py-2 hover:bg-black cursor-pointer">E-Shram Card</li>
@@ -57,7 +58,7 @@ export default function Menu() {
       {isTouchDevice && open && (
         <div className="mt-2 w-full bg-gray-800 rounded-lg shadow-lg border z-50">
           <ul className="py-2">
-            <li className="px-4 py-2 border-b border-gray-700">Adhar</li>
+            <li className="px-4 py-2 border-b border-gray-700"><Link to="/Adhar">Adhar</Link></li>
             <li className="px-4 py-2 border-b border-gray-700">Pan Card</li>
             <li className="px-4 py-2 border-b border-gray-700">Sambhal Card</li>
             <li className="px-4 py-2 border-b border-gray-700">E-Shram Card</li>
